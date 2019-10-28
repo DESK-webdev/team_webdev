@@ -30,19 +30,12 @@
 
 
 
-
         
     .search:hover > .search-box {
     width: 88%;
     transition:0.4s;
     
 
-
-    .search-box:hover > .search-text {
-    width: 70%;
-    padding: 0 6px;
-    border:navy;
->>>>>>> 60e4b34ac0d91ed0b5f2d851f68e389722d29047
     }
 
 
@@ -65,9 +58,7 @@
     }
 
     .search-btn:hover {
-
         background:rgb(15, 17, 15);
-        background:white;
     }
 
 
