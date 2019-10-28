@@ -29,7 +29,7 @@
     }
 
 
-<<<<<<< HEAD
+
 
         
     .search:hover > .search-box {
@@ -37,7 +37,7 @@
     transition:0.4s;
     
 
-=======
+
     .search-box:hover > .search-text {
     width: 70%;
     padding: 0 6px;
@@ -65,12 +65,9 @@
     }
 
     .search-btn:hover {
-<<<<<<< HEAD
+
         background:rgb(15, 17, 15);
-=======
         background:white;
-     
->>>>>>> 60e4b34ac0d91ed0b5f2d851f68e389722d29047
     }
 
 
@@ -90,9 +87,6 @@
         font-size: 16px;
         transition: 0.4s;
         line-height: 60px;
-<<<<<<< HEAD
         width: 90%;
-=======
->>>>>>> 60e4b34ac0d91ed0b5f2d851f68e389722d29047
         font-weight: bold;
         }
