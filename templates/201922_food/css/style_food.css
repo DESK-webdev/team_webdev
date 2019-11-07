@@ -1,0 +1,160 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-steel{
+    background: rgb(255, 211, 15)
+}
+.nav-item{
+    padding: 14px;
+    font-weight: bold;
+    font-size: 17px;
+    font-style: oblique;
+}
+   /* my */
+.search{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top:-50% ;
+    transform: translate(-50%,-50%);
+    
+    padding-top: 20px;
+    transition: 0.5s;
+  
+  }
+  
+  .search:hover {
+    width:80% ;
+    transition: 0.5s;
+  }
+  
+  
+  
+  
+  
+  .search-box { 
+  position: absolute;
+  background: #960707;
+  width:95%;
+  border-radius: 30px;
+  height:60px;
+  
+  }
+  
+  
+  
+  
+  .search-btn {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    left: 100%;
+    background:#7e1b1b;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer; 
+    transition: 0.5s;
+  }
+  
+  
+  search-btn:hover{
+    color: #e9b3b3;
+    background: #fffbfb;
+  
+  }
+  
+  
+  
+  
+  
+  .search-btn > i {
+    font-size: 30px;
+  
+  }
+  
+  .search-text {
+    
+    border: none;
+    background:none;
+    outline: none;
+    line-height: 60px;
+    width: 98%;
+    color: #ece6e6;
+    padding-left:20px ;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    transition: 0.5s;
+  }
+  
+.social a{
+    font-size: 4.5rem;
+    padding: 3rem;
+}
+
+.fa-facebook{
+    color: rgb(74, 74, 241);
+}
+
+.fa-youtube{
+    color: rgb(241, 30, 30)
+}
+
+.fa-instagram{
+    color:#517fa4;
+  }
+  
+
+.fa-twitter{
+    color: rgb(120, 205, 238);
+}
+
+.fa-google-plus-g{
+    color:#dd4b39;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+  color: #222;
+}
+
+.padding{
+    padding-top: 2rem;
+}
+
+.pd5{  
+    padding-right: 12px; 
+}
+
+footer{
+    background-color: rgb(58, 57, 57);
+    color: rgb(223, 221, 221);  
+}
+
+
+
+
+  hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .4rem;
+    margin-bottom: .7rem;
+  }

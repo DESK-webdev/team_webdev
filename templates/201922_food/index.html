@@ -1,175 +1,388 @@
 
 
-
-<!Doctype html>
+<!doctype html>
 <html>
 <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
 
-
-   
 </head>
-
-<link rel="stylesheet" type="text/css" href="css/style1.css">
-
+<link rel="stylesheet" type="text/css" href="css/style_food.css">
 <style>
-
+    .carousel-item img{
+        width: 100%;
+    }
 </style>
- 
 
+<body>
+<nav class="navbar navbar-expand-sm bg-steel navbar-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo1.png" alt="logo"></a>
 
-
-
-
-
-
-<body> <!--style="background: rgb(161, 23, 23);"--> 
-        <nav class="navbar navbar-expand-sm bg-warning navbar-light sticky-top">
-                <a class="navbar-brand" href="#">LOGO</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                                </button>
-        <div class="container" >
-
-                <div class="collapse navbar-collapse" id="navbarToggle">
-                        <div class="navbar-nav mr-auto">
-                                <a class="nav-item nav-link"  href="#">Foods</a>
-                                <a class="nav-item nav-link" href="#">Messages</a>
-                                <a class="nav-item nav-link" href="#">Gallery</a>
-                        </div>
-                        <div class="navbar-nav ">
-                                        
-                                <a class="nav-item nav-link" href="#">LOG in</a>
-                                <a class="nav-item nav-link" href="#">Create Account</a>
-                                <a class="nav-item nav-link" href="#">Contact us</a>
-                        </div>
-                </div>
-        </nav>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponse" type="button">
+                <span class="navbar-toggler-icon">
+            </span></button>
+            
+        <div class="collapse navbar-collapse" id="navbarResponse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Foods</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log in</a>
+                </li>
+                
+            </ul>
+        </div>
         
-        <div class="container  mt-4" style="height: 55px; float:center">
-                <div class="search">
-                        <div class="search-box">
-                                <input type="text" name="search" placeholder="Type a Search" class="search-text">
-                                <a class="search-btn" href="#">
-                                        <i class="fas fa-search"></i>
-                                  </a>
+    </div>
+</nav>
+
+<!--sliding images -->
+<div class="carousel slide" data-ride="carousel" id="slide">
+    <ul class="carousel-indicators">
+        <li data-slide-to="0" data-target="#slide" class="active"></li>
+        <li data-slide-to="1" data-target="#slide"></li>
+        <li data-slide-to="2" data-target="#slide"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            
+            <img src="img/food1.jpg">
+            <div class="carousel-caption">
+                    <div class="container">
+                            <div class="search">
+                                    <div class="search-box">
+                                            <input type="text" name="search" placeholder="Type a Search" class="search-text">
+                                            <a class="search-btn" href="#">
+                                                    <i class="fas fa-search"></i>
+                                            </a>
+                                    </div>
+                                    
+                            </div>
                         </div>
-                        
-                </div>
+                    
+                <h3 class="display-4 ">BURGER</h3>
+                <p>Mesmerising taste can make your day!</p>
             </div>
         </div>
-            
-        <div class="container">
-                <div class="row">    
-                <div class="col-sm-4">                 
-                                <div class="card" style="width:300px;  height:500px;">
-                                                <img  class="card-img-top" src="pictures/pizza.jpeg" alt="pizza" style="height:75%">
-                                <div class="card-body">
-                                        <h1 class="card-head">food_name</h1>
-                                        <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
-                                        <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it </a>
-                                </div>
+        <div class="carousel-item ">
+            <img src="img/food2.jpg">
+            <div class="carousel-caption">
+                    <div class="container">
+                            <div class="search">
+                                    <div class="search-box">
+                                            <input type="text" name="search" placeholder="Type a Search" class="search-text">
+                                            <a class="search-btn" href="#">
+                                                    <i class="fas fa-search"></i>
+                                            </a>
+                                    </div>
+                                    
+                            </div>
                         </div>
+                <h3 class="display-4 ">ROAST</h3>
+                <p>Mesmerising taste can make your day!</p>
+            </div>
+        </div>
+        <div class="carousel-item ">
+            <img src="img/food4.webp">
+            <div class="carousel-caption">
+                    <div class="container">
+                            <div class="search">
+                                    <div class="search-box">
+                                            <input type="text" name="search" placeholder="Type a Search" class="search-text">
+                                            <a class="search-btn" href="#">
+                                                    <i class="fas fa-search"></i>
+                                            </a>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                <h3 class="display-4 ">PIZZA</h3>
+                <p>Mesmerising taste can make your day!</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-                                     </div>
-                <div class="col-sm-4">                 
+<!--jumbotron-->
+<div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-sm-12 col-md-9 col-lg-10">
+            <p class="lead"> We will provide with delicious food in no time.Take the phone and call in our given 
+                no. right now! or check out the link for more information..
+            </p>
+            </div>
+            <div class="col-md-3 col-lg-2 pd5 text-center">
+                <button type="button" class="btn btn-outline-secondary btn-lg ">MORE INFO</button>
+            </div>
+        </div>
+</div>
+
+<!--Welcome-->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+        <h2 class="display-4">WELCOME to our Site!</h2>
+        <hr class="my-4">
+        </div>
+        
+        <div class="col-12">
+        
+        <p class="lead">Here, we offer you a lot of variety of food.You can enjoy it in our resturant as well as
+            order it in your home. We promise you that we will make your day with delicious foods and
+            our Services. Thank you!
+        </p>
+        </div>
+    </div>
+    <hr class="my-4">
+    <hr class="">
+    
+
+</div>
+
+
+<!--Our foods-->
+
+<div class="container">
+        <div class="row text-center">    
+        <div class="col-sm-4">                 
                         <div class="card" style="width:300px;  height:500px;">
-                                <img  class="card-img-top" src="pictures/french fries.jpeg" alt="french fries" style="height:75%">
-                                <div class="card-body">
-                                        <h1 class="card-head">french fries</h1>
-                                        <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
-                                        <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it</a>
-                                </div>
+                                        <img  class="card-img-top" src="pictures/pizza.jpeg" alt="pizza" style="height:55%">
+                        <div class="card-body">
+                                <h1 class="card-head">food_name</h1>
+                                <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
+                                <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it </a>
+                        </div>
                 </div>
 
-                 </div> 
+                             </div>
+        <div class="col-sm-4">                 
+                <div class="card" style="width:300px;  height:500px;">
+                        <img  class="card-img-top" src="pictures/french fries.jpeg" alt="french fries" style="height:55%">
+                        <div class="card-body">
+                                <h1 class="card-head">french fries</h1>
+                                <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
+                                <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it</a>
+                        </div>
+        </div>
 
-                <div class="col-sm-4">                 
+         </div> 
+
+        <div class="col-sm-4">                 
+                <div class="card" style="width:300px; height:500px;">
+                        <img  class="card-img-top" src="pictures/Burger.jpeg" alt="burger" style="height:55%">
+                        <div class="card-body">
+                                <h1 class="card-head">Burger</h1>
+                                <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
+                                <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it</a>
+                        </div>
+        </div>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-sm-4">                 
                         <div class="card" style="width:300px; height:500px;">
-                                <img  class="card-img-top" src="pictures/burger.jpeg" alt="burger" style="height:75%">
+                                <img  class="card-img-top" src="pictures/hotdogs.jpeg" alt="hotdogs" style="height:55%">
                                 <div class="card-body">
-                                        <h1 class="card-head">Burger</h1>
+                                        <h1 class="card-head">Hotdogs</h1>
                                         <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
                                         <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it</a>
                                 </div>
                 </div>
                 </div>
-
                 <div class="col-sm-4">                 
                                 <div class="card" style="width:300px; height:500px;">
-                                        <img  class="card-img-top" src="pictures/hotdogs.jpeg" alt="hotdogs" style="height:75%">
+                                        <img  class="card-img-top" src="pictures/fast food.jpeg" alt="fast food" style="height:55%">
                                         <div class="card-body">
-                                                <h1 class="card-head">Hotdogs</h1>
+                                                <h1 class="card-head">Combo</h1>
                                                 <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
                                                 <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it</a>
                                         </div>
-                        </div>
-                        </div>
-                        <div class="col-sm-4">                 
-                                        <div class="card" style="width:300px; height:500px;">
-                                                <img  class="card-img-top" src="pictures/fast food.jpeg" alt="fast food" style="height:75%">
-                                                <div class="card-body">
-                                                        <h1 class="card-head">Combo</h1>
-                                                        <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
-                                                        <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it</a>
-                                                </div>
-                                 </div>
-                        </div>
-
+                         </div>
                 </div>
+                <div class="col-sm-4">                 
+                        <div class="card" style="width:300px; height:500px;">
+                                <img  class="card-img-top" src="pictures/kfc.jpeg" alt="fast food" style="height:55%">
+                                <div class="card-body">
+                                        <h1 class="card-head">Kfc</h1>
+                                        <p class="card-text">It's a very popular fast food! Try it and you will experience something new!</p>
+                                        <a class="btn btn-success stretched-link" href="work in progress/work in progress.html"> View it</a>
+                                </div>
+                 </div>
         </div>
-
-
-
         
+    </div>
+</div>
+
+
+
+
+
+<!--Meet the team Section-->
+<div class="container-fluid padding mt-5 mb-0">
+        <div class="row text-center welcome">
+            <div class="col-12">
+                <h1 class="display-4">Meet the team!</h1>
+            </div>
+            <hr class="light mt-0">
+        </div>
+        
+    </div>
+    
+    
+    <!--Cards-->
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/prof1.jpeg" alt="Samlal pic" >
+                    <div class="card-body">
+                        <h3 class="card-title">Samlal</h3>
+                        <p class="card-text">Samlal is a computer engineer,
+                             also called a software engineer. He responsible for developing, 
+                            testing and evaluating the software that make our computers work.
+                             He may help in the development of new computer games and business applications, 
+                             or even in the design of entirely new operating systems.</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/prof3.jpeg" alt=" pic" >
+                    <div class="card-body">
+                        <h3 class="card-title">Sarita</h3>
+                        <p class="card-text">Sarita is a computer engineer,
+                             also called a software engineer. He responsible for developing, 
+                            testing and evaluating the software that make our computers work.
+                             He may help in the development of new computer games and business applications, 
+                             or even in the design of entirely new operating systems.</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/prof2.jpeg" alt=" pic" >
+                    <div class="card-body">
+                        <h3 class="card-title">Anjan</h3>
+                        <p class="card-text">Anjan is a computer engineer,
+                             also called a software engineer. He responsible for developing, 
+                            testing and evaluating the software that make our computers work.
+                             He may help in the development of new computer games and business applications, 
+                             or even in the design of entirely new operating systems.</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+<!--Other pantry services-->
+<div class="container-fluid">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <hr class="">
+            <a class="btn btn-warning btn-lg" >Check out our other Pantry Services.</a>
+            <hr class="">
+        </div>
+    </div>
+</div>
+
+<!--connect-->
+<div class="container-fluid padding">
+<div class="row text-center padding social">
+    <div class="col-12">
+    <h1>Connect</h1>
+    </div>
+    <div class="col-12">
+        <a href="#">
+        <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#">
+        <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#">
+        <i class="fab fa-youtube"></i>
+        </a>
+        <a href="#">
+        <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+        <i class="fab fa-google-plus-g"></i>
+        </a>
+    </div>
+</div>
+</div>
+
+<!--footer-->
+<footer>
+    <div class="container-fluid padding ">
+        <div class="row text-center padding">
+            <div class="col-md-4"> 
+               <a href="#"> <img src="img/logo1.png" alt="logo"></a>
+                <hr class="light">
+                <h3>Contact</h3>
+                <hr class="light">
+                <p>061-5555-555</p>
+                <p>Examplea@gmail.com</p>
+                <p>Pokhara-31,District</p>
                 
-
-<div class="jumbotron jumbotron-fluid bg-dark mb-0 mr-auto"  style="color:rgb(228, 233, 224);">
-                <div class="row ml-0">
-                        <ul class="col-sm-6">
-                                <a class="nav-item nav-link mr-auto mt-0 mb-0" style="color:rgb(234, 255, 220);" href="work in progress/work in progress.html"><h1><strong>Logo</strong></h1></a>
-                                <p class="mt-0 mb-0 ml-1">This is our Logo.Our purpose is to deliver best quality food to you.</p>
-                                <strong>Thank you for ordering from us.</strong>
-                        </ul>
-
-                        <ul class="col-sm-3">
-                        <a href="#"> <h6 style="color:cadetblue;"><strong>About us</strong></h6> </a>
-                        <a href="#"> <h6 style="color:cadetblue;"><strong>Read our Blog</strong></h6> </a>
-                        <a href="#"> <h6 style="color:cadetblue;"><strong>Contact us</strong></h6> </a>
-                        <a href="#"> <h6 style="color:cadetblue;"><strong>Buy gift cards</strong></h6> </a>
-                        <a href="#"> <h6 style="color:cadetblue;"><strong>Add your resturant</strong></h6> </a>
-                        
-                        </ul>
-
-                        <ul class="col-sm-3">
-                                        <a href="#"> <h6 style="color:cadetblue;"><strong>Get Help</strong></h6> </a>
-                                        <a href="#"> <h6 style="color:cadetblue;"><strong>Give feedback</strong></h6> </a>
-                                        <a href="#"> <h6 style="color:cadetblue;"><strong>Read FAQs</strong></h6> </a>
-                                        <a href="#"> <h6 style="color:cadetblue;"><strong>Resturants</strong></h6> </a>
-                                        <a href="#"> <h6 style="color:cadetblue;"><strong>Favorites</strong></h6> </a>
-                        </ul>        
-        
-
-                </div>
-                </div>
-
-                <div class="footer-copyright text-center  bg-dark mb-0 mt-0 text-success">© 2018 Copyright:
-                                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-                </div>
-
-        
+            </div>
+            <div class="col-md-4"> 
+                <hr class="light">
+                <h3>Our Time</h3>
+                <hr class="light">
+                <p>Sunday  :9:00am to 5:00pm</p>
+                <p>Friday  :9:00am to 5:00pm</p>
+                <p>Saturday:Day off</p>
+                <p>Note:Online service will be available all week</p>
+            </div>
+            <div class="col-md-4"> 
+                <hr class="light">
+                <h3>Our Services</h3>
+                <hr class="light">
+                <p>Pokhara,00001</p>
+                <p>Kathmandu,00002</p>
+                <p>Lalitpur,00004</p>
+                <p>Chitwan,00003</p>
+            </div>
        
+            <div class="col-12">
+                <hr class="light">
+                <p>2019:copyrights@ <a href="#"><strong>Our_Company.com </strong></a></p>
+            </div>  
+        </div>
+    </div>
+</footer>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
 
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
