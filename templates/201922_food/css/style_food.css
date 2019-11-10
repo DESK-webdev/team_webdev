@@ -25,7 +25,7 @@
    /* my */
 .search{
     position: absolute;
-    width: 50%;
+    width: 70%;
     left: 50%;
     top:-110% ;
     transform: translate(-50%,-50%);
@@ -36,7 +36,7 @@
   }
   
   .search:hover {
-    width:80% ;
+    width:100% ;
     transition: 0.5s;
   }
   
