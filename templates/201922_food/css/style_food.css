@@ -27,7 +27,7 @@
     position: absolute;
     width: 50%;
     left: 50%;
-    top:-50% ;
+    top:-70% ;
     transform: translate(-50%,-50%);
     
     padding-top: 20px;
@@ -104,7 +104,7 @@
   
 .social a{
     font-size: 4.5rem;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .fa-facebook{
